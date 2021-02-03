@@ -1,10 +1,17 @@
 <script>
+	import { Router } from "@roxi/routify";
+	import { routes } from "../.routify/routes";
+
 	export let name;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>Megami - 女神</h1>
+	<p>The cross-platform MyAnimeList client.</p>
+
+	<Router {routes}/>
+
+	<button>Log In to MyAnimeList</button>
 </main>
 
 <style>
