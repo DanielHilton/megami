@@ -1,8 +1,6 @@
 <script>
 	import { Router } from "@roxi/routify";
 	import { routes } from "../.routify/routes";
-
-	export let name;
 </script>
 
 <main>
