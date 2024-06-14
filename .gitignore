@@ -1,8 +1,0 @@
-/node_modules/
-/public/build/
-
-svelte-app-darwin-x64
-
-.DS_Store
-
-.idea
